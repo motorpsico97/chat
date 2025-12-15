@@ -1,0 +1,16 @@
+<div>
+    <h1>Página de inicio</h1>
+
+    <form id="formChat">
+        <input type="text" id="username" placeholder="Nombre de usuario" required/>
+        <input type="text" id="inputChat" placeholder="Escribe un mensaje" required />
+        <button type="submit">Enviar</button>
+    </form>
+
+    <div id="chatBox"></div>
+
+</div>
+
+{{!-- Importar la librería de Socket.IO --}}
+<script src="/socket.io/socket.io.js"></script>
+<script src="/js/home.js"></script>
